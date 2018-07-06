@@ -13,4 +13,5 @@ def second_challenge
       arr.push(thing)
     end
   end
+  arr
 end
