@@ -7,8 +7,10 @@ def second_challenge
   }
 
   #code your solution here!
-
+  arr = []
   groceries.each do |type,item|
-    
-
+    item.each do |thing|
+      arr.push(thing)
+    end
+  end
 end
